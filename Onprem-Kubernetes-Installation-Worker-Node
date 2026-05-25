@@ -21,7 +21,7 @@ net.ipv4.ip_forward = 1
 EOF
 sudo sysctl --system
 
-# 5) Install Containerd
+# 5) Install Containerd g
 sudo apt update
 sudo apt install ca-certificates curl -y
 sudo install -m 0755 -d /etc/apt/keyrings
